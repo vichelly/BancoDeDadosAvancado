@@ -29,11 +29,15 @@ Utilizando MongoDB
 3. **Para povoar o banco de dados de nome faculdade com as coleções basta executar cada uma das queries em javascript**
     ex.
     Na pasta do projeto
-    ``` node faculdade.alunos.js
+    ``` 
+    node faculdade.alunos.js
+    
     Faça isso com todos os arquivos e terá o banco de dados com as coleções povoadas
 
 4. **As queries pedidas de 1 a 5 estão na pasta queries-projeto-antigo**
     ex. 
     Na pasta do projeto
-    ``` node queries-projeto-antigo\get-alunos-formados.js
+    ``` 
+    node queries-projeto-antigo\get-alunos-formados.js
+    
     Ao executar o console trará as respectivas respostas das queries
