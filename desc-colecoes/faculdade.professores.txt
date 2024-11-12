@@ -1,0 +1,16 @@
+{
+    "id_professor": Number, // Identificador único do professor
+    "nome": String, // Nome completo do professor
+    "disciplinas_ministradas": [
+        {
+            "id_disciplina": Number, // Identificador da disciplina ministrada
+            "nome": String, // Nome da disciplina ministrada
+            "ano": Number, // Ano em que a disciplina é ministrada
+            "semestre": Number // Semestre em que a disciplina é ministrada
+        }
+    ],
+    "chefe_departamento": {
+        "id_departamento": Number, // Identificador do departamento ao qual o professor pertence (opcional)
+        "nome": String // Nome do departamento ao qual o professor pertence (opcional)
+    }
+}

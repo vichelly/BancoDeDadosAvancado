@@ -1,0 +1,8 @@
+{
+    "id_departamento": Number, // Identificador único do departamento
+    "nome": String, // Nome do departamento (ex.: Ciências, Engenharias)
+    "chefe": {
+        "id_professor": Number, // Identificador do professor que é o chefe do departamento
+        "nome": String // Nome do professor que é o chefe do departamento
+    }
+}

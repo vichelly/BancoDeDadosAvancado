@@ -1,0 +1,8 @@
+{
+    "id_curso": Number, // Identificador único do curso
+    "nome": String, // Nome completo do curso (ex.: Ciência da Computação)
+    "departamento": {
+        "id_departamento": Number, // Identificador do departamento ao qual o curso pertence
+        "nome": String // Nome do departamento ao qual o curso pertence (ex.: Ciências)
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "id_disciplina": Number, // Identificador único da disciplina
+    "nome": String, // Nome da disciplina (ex.: Cálculo, Sistemas Operacionais)
+    "professor": {
+        "id_professor": Number, // Identificador do professor que ministra a disciplina
+        "nome": String // Nome do professor que ministra a disciplina
+    }
+}

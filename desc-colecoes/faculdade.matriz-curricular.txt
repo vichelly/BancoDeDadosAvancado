@@ -1,0 +1,13 @@
+{
+    "id_matriz": Number, // Identificador único da matriz curricular
+    "curso": {
+        "id_curso": Number, // Identificador do curso associado à matriz curricular
+        "nome": String // Nome do curso associado à matriz curricular (ex.: Ciência da Computação)
+    },
+    "disciplinas_obrigatorias": [
+        {
+            "id_disciplina": Number, // Identificador da disciplina obrigatória na matriz curricular
+            "nome": String // Nome da disciplina obrigatória na matriz curricular
+        }
+    ]
+}
